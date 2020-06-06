@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    
+    <link rel="icon" type="image/png">
+    
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>Example filter</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>	  
+
+<body>
+  <div class="well">
+    <h2>Prize <select id="selPrize" onchange="filterData(this.value)"></select></h2>
+  </div>
+
+  <div>
+    <div id="textArea">
+
+    </div>
+  </div>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="logic.js"></script>
+
+</html>
