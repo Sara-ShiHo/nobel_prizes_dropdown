@@ -26,12 +26,11 @@ function filterData(value){
     // clear the existing display
     textArea.html("")
 
-    // insert information
+    // loop through array of objects
     filteredData.forEach(function (record) {
       
       // append the year
-      textArea.append("h4")
-          .text(record.year)
+      textArea.append("h4").text(record.year)
 
       // append the laureates, if any
       if (record.laureates) {
