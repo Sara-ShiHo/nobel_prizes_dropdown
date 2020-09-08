@@ -1,6 +1,6 @@
 # Nobel Prizes Dropdown
 
-A very simple example of creating a filter and dynamically populating a website with new data
+A very simple example of creating a filter and dynamically populating a website with new data using only (vanilla) JavaScript, D3.js, and HTML.
 
 See here for result:
 http://sara-shiho.github.io/nobel_prizes_dropdown
